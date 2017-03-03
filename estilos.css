@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+  text-align: center;
+}
+.divForm{
+  display: inline-block;
+	width: 300px;
+  margin: 10em auto;
+  /*border: 1px solid black;*/
+}
+span{
+  padding: 0px 10px;
+}
+/*.btnCambios{
+  margin-left: 1.5em;
+}
+.divBotones{
+  width: 150px;
+  margin: 0em auto;
+  border: 1px solid black;*/
+}
+.titulos{
+  margin-left: 2em;
+}
+.centrado{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+  /*border: 1px solid black;*/
+}
+.texto {
+  margin-top: 10px;
+	width: 95%;
+	padding: 8px 0px 8px 5px;
+	text-align: left;
+	border-radius: 3%;
+	border-style: none;
+	/*border: 2px solid #efc164;*/
+  /*width: 20em;*/
+  border-bottom: 2px solid #efc164;
+	transition: all ease 500ms;
+}
+.error{
+	padding: 8px 0px 8px 5px;
+	text-align: left;
+	width: 95%;
+	border-radius: 3%;
+	border-style: none;
+	border-bottom: 2px solid red;
+	transition: all ease 500ms;
+}
+.color {
+	padding: 8px 0px 8px 5px;
+	text-align: left;
+	width: 95%;
+	border-radius: 3%;
+	border-style: none;
+	border-bottom: 2px solid #efc164;
+	transition: all ease 500ms;
+}
+.texto:focus {
+	padding: 8px 0px 8px 5px;
+	outline: 0px;
+	text-align: left;
+	border-radius: 3%;
+	border-style: none;
+	border-bottom: 2px solid #00b294;
+}
+.color:focus {
+	padding: 8px 0px 8px 5px;
+	outline: 0px;
+	text-align: left;
+	border-radius: 3%;
+	border-style: none;
+	border-bottom: 2px solid #00b294;
+}
