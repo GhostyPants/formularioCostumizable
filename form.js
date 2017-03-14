@@ -101,7 +101,7 @@ function transformar() {
     span.style.fontWeight = "normal";
     //console.log(black);
   }
-  else if (black.checked != true && cursi.checked != true){
+  if (black.checked != true && cursi.checked != true){
     span.style.fontStyle = "normal";
     span.style.fontWeight = "normal";
     //(black.checked != true && cursi.checked != true)
